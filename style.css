@@ -36,9 +36,9 @@ a{
     margin: auto;
 }
 
-#logo{
+/* #logo{
     
-}
+} */
 #header-top, #header-nav ul{
     display: flex;
     justify-content: space-between;
@@ -105,6 +105,7 @@ a{
     display: flex;
     padding: 70px 0 55px 0;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .slide-text{
     max-width: 380px;
@@ -126,7 +127,7 @@ a{
 .slide-text button{
     border: 2px solid white;
     background-color: #4ccfc1;
-    padding: 8px 20px;
+    padding: 10px 20px 7px 20px;
     color: #fff;
     font-size: 18px;
     font-family: 'bebasbold';
@@ -156,6 +157,15 @@ a{
         padding: 0 10px;
     }
     #search{
+        margin: 15px;
+    }
+}
+@media(max-width: 600px){
+    #slider{
+        padding: 15px;
+        text-align: center;
+    }
+    #slider h2{
         margin: 15px;
     }
 }
