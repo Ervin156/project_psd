@@ -191,6 +191,46 @@ a {
   font-family: "bebasbold";
   border-radius: 8px;
 }
+.footer-top-bg{
+  background-color: #39c2b7;
+  padding: 0 15px;
+}
+#footer-top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 
+ 40px;
+}
+#footer-top a{
+  color: white;
+  margin-bottom: 15px;
+  display: block;
+}
+#footer-top ul li:last-child a{
+  margin: 0;
+}
+#footer-top h2{
+  margin:  0 0 15px 0;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'bebasbold';
+  font-size: 30px;
+
+}
+#footer-bottom{
+  background-color: #2da89b;
+  text-align: center;
+  padding: 15px 0;
+}
+#footer-bottom a{
+ 
+  color: white;
+  font-family: 'Open Sans';
+}
+
+
+
 @media (max-width: 1000px) {
   #header-top {
     margin: 0 15px;
